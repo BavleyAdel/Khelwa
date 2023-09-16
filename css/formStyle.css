@@ -1,0 +1,50 @@
+body {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.stretch-card {
+    margin: auto;
+    
+}
+
+.card {
+    background: transparent;
+    background-color: #cbcbcb29;
+    box-shadow: 1px 0px 10px 3px rgb(230 230 243 / 0.7);
+}
+
+.form-control {
+    background: transparent;
+    border-color: rgb(255 255 255 / 50%);
+}
+select.form-control, .select2-container--default select.select2-selection--single, .select2-container--default .select2-selection--single select.select2-search__field, select.typeahead, select.tt-query, select.tt-hint{
+    color: rgba(0, 0, 0, 0.358);
+    outline-color: rgb(255 255 255 / 50%);
+    background: transparent;
+    background-color: transparent;
+}
+
+.select-items   {
+    background-color: transparent;
+    border-color: white;
+    color: rgb(15, 9, 9);
+}
+.form-control:focus {
+    background-color: transparent;
+    border-color: white;
+    color: rgb(15, 9, 9);
+}
+
+.form-check{
+    color: red;
+}
+
+.card input::placeholder {
+    color: rgba(0, 0, 0, 0.358);
+}

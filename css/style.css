@@ -1,0 +1,105 @@
+/* :root {
+    --primary-color:#0dcaf0; 
+} */
+
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Amiri', sans-serif;
+}
+
+.alert{
+    font-family: 'Alexandria', sans-serif;
+    margin-bottom: 0;
+    color: #454545e0;
+    border-radius: 0;
+}
+
+.heroText {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 25px;
+    color: #5e5e5e;
+    transition: 0.5s ease;
+}
+
+.navbar-brand:hover {
+    /* color: #176B87; */
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link,
+.btn,.stretch-card  {
+    font-family: 'Alexandria', sans-serif;
+    font-size: 15px;
+    z-index: 100;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled)[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    position: relative;
+    /* margin-right: 50px; */
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 5px;
+}
+
+/*about image*/
+#about .about-image {
+    max-height: 500px;
+}
+
+/**Carousal imgs*/
+.team-image {
+    height: 500px;
+}
+
+/**Carousal txt*/
+.team-thumb {
+    width: 70%;
+    padding: 7px 10px 15px 25px;
+    height: 70px;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*carusal contrllers*/
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute !important;
+    bottom: 250px;
+}
+
+.carousel-control-prev {
+    right: auto;
+    left: 0rem;
+}
+
+.map-iframe {
+    filter: none;
+}
+
+h2[data-aos]{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 38pt;
+    text-align: center;
+}
+
+p[data-aos]{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 18pt;
+    color: #000000c7;
+}
